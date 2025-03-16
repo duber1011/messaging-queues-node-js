@@ -1,0 +1,24 @@
+{
+  "name": "messaging-queues-node",
+  "version": "1.0.0",
+  "description": "RabbitMQ messaging queue management project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "duber1011"
+  },
+  "author": "Duber Orrvi",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.5",
+    "dotenv": "^16.4.7"
+  }
+}
